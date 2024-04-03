@@ -1,0 +1,9 @@
+If you have your own key pair and would like to create a key file the format is as follows:
+-------------------------
+publickey modulus
+privatekey modulus
+-------------------------
+example:
+-------------------------
+38307433509 42463068511
+37838139917 42463068511
