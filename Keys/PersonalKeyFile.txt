@@ -1,0 +1,4 @@
+Public Key:
+your e value (public key) is 213142511497 and your modulus is 468430535147
+Private Key:
+your d value (private key) is 28375213033 and your modulus is 468430535147
