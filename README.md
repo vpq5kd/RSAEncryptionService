@@ -3,7 +3,7 @@ JAVA MUST BE INSTALLED ON YOUR MACHINE PRIOR TO USE!
 
 To Install:
 -------
-*Note* -> Sometimes windows defender likes to block this application because it contains a batch file and a .exe file. All the .exe/.bat file does is open powershell and run java -jar RSAEncryption.jar. If you are having trouble with windows defender blocking or automatically deleting this program, fist create a new folder on your machine and give it special permissions in windows defender. Then, simply drag and drop this program into that folder and it should be fine. 
+*Note* -> Sometimes windows defender likes to block this application because it contains a batch file and a .exe file. All the .exe/.bat file does is open powershell and run java -jar RSAEncryption.jar. If you are having trouble with windows defender blocking or automatically deleting this program, fist create a new folder on your machine and give it special permissions in windows defender. Then, simply drag and drop this program into that folder and it should be fine. <-This may have been patched with the latest .exe file that I wrote, which now can only be run as admin. However, chrome still blocks it, so just override it. 
 
 - Latest Windows/Java release is under releases. Download the zip file, move it to where you want the program to live, and extract its contents.
 - If you are on a windows machine, you can move the included SRSA shortcut (with the key icon) to your desktop for ease of use.
