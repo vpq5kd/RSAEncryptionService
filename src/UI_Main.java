@@ -6,9 +6,7 @@ public class UI_Main {
             ArgumentHandler argumentHandler = new ArgumentHandler();
             try {
                 argumentHandler.getArgument();
-            }catch (IllegalArgumentException e){
-                continue;
-            }
+            }catch (Exception e){}
         }
     }
 }
