@@ -85,9 +85,14 @@ public class Decrypt {
         message = scanner.nextLine();
         List<BigInteger> cipherText = stringToBigInt();
         List<Object> privateKey = rsaEncryption.getPrivateKey();
-        String decryptedMessage = rsaEncryption.DECRYPT(cipherText,privateKey);
-        System.out.println("Cipher text decrypted, message is as follows:");
-        System.out.println(decryptedMessage);
+        try {
+            String decryptedMessage = rsaEncryption.DECRYPT(cipherText, privateKey);
+            System.out.println("Cipher text decrypted, message is as follows:");
+            System.out.println(decryptedMessage);
+        }catch (Exception e){
+            System.out.println("Something went wrong with your decryption, most likely the way you formatted your cipher text was not proper for this application.\n program restarting...");
+            throw new IllegalArgumentException();
+        }
     }
 
     private List<BigInteger> stringToBigInt() {
